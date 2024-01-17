@@ -5,13 +5,18 @@ Console.WriteLine("Hello, World!");
 // Read README.md for instructions. IN VS Code, press Ctrl+Shift+V or Cmd+Shift+V to preview the README.md file
 
 // Task 1: Create a new, empty list of strings here.
-
+List<string> myListOfStrings = new List<string>();
 
 // Task 2: Add 3 strings to your list - their values can be anything.
-
+myListOfStrings.Add("Teal");
+myListOfStrings.Add("Gold");
+myListOfStrings.Add("Silver");
 
 // Task 3: Iterate or loop through your list with a foreach loop printing each element to the console.
-
+foreach (string element in myListOfStrings)
+{
+    Console.WriteLine(element);
+}
 
 // Task 4: Save and run your program with dotnet run.
 // Push your changes to github.
