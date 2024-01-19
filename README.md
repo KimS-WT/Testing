@@ -60,7 +60,10 @@ Answer the following question by typing your answers right here in `README.md`.
 
 1. What is the difference between a `for` loop and a `foreach` loop?
 
-    Replace this text with your response.
+    A for loop let you iterate and modify a collection (list) using the array syntax, 
+    whereas a for each loop is used to iterate through a collection (list) so it can read
+    the values of elements (callback function) without modifying the elements by using 
+    element-based syntax as it doesnt use an index variable or [] .
 
 ## Task 8
 1. Save your program and run it. At the terminal prompt, type `dotnet run`.
